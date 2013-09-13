@@ -1,0 +1,203 @@
+@import "bootstrap";
+
+/* universal */
+
+html {
+  overflow-y: scroll;
+}
+
+ul {
+  margin: 0px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: $grayLight;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+
+.navbar {
+	height: 80px;
+  margin-bottom: 100px;
+}
+
+.navbar-inner {
+	height: 80px;
+	background-color: transparent;	
+	background-image: none;
+}
+
+
+.iip_title {
+	font-size: 50px;
+	font-weight: bold;
+  margin-top: 15px;
+	margin-left: 160px;
+	height: 50px;
+	line-height: 50px;
+}
+
+/* argument page */
+
+
+.upArrow {
+	width: 0; 
+	height: 0; 
+	border-left: 14px solid transparent;
+	border-right: 14px solid transparent;
+	border-bottom: 14px solid black;
+  margin-left: -14px; /* this centers the arrow */
+
+}
+
+.leftArrow {
+  width: 0; 
+  height: 0; 
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-right: 14px solid black;
+}
+
+.rightArrow {
+  width: 0; 
+  height: 0; 
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 14px solid black;
+}
+
+
+.verticalLine {
+	height: 50px;
+	width: 0px;
+	border: 1px solid black;
+  margin-left: -1px; /* this centers the line */
+
+}
+
+
+.horizontalLine {
+  height: 0px;
+  width: 100px;
+  border: 1px dashed black;
+  margin-bottom: 13px;  /* 1px less than the triangle centers the line */
+}
+
+.implications, .support {
+  height: 60px;
+  text-align: center;
+}
+
+.claim {
+  height: 204px;
+  
+}
+
+
+.equivalents {
+  height: 204px;
+  padding-top: 20px;
+  font-size: 1.5em;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.argClaim {
+  padding-top: 20px;
+  font-size: 1.3em;
+  border: 2px solid black;
+  border-radius: 12px;
+
+
+}
+
+.claimSection {
+  height: 228px;
+}
+
+.claimSection li {
+  list-style: none;
+  display: inline-block;
+}
+
+.hList li {
+  list-style: none;
+  display: inline-block;
+}
+
+.boughtIn {
+  padding-left: 30px;
+  width: 140px;
+  vertical-align: middle;
+
+}
+
+
+.buyIn {
+  width: 120px;
+}
+
+.userAgreeBox {
+  border: 2px solid blue;
+  height: 26px;
+  width: 26px;
+}
+
+
+.userDisagreeBox {
+  border: 2px solid red;
+  height: 26px;
+  width: 26px;
+}
+
+
+
+
+.equivalence {
+  margin-top: 91px; /* =362/2 - 70 */
+}
+
+
+.arrow {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 150px; /* 2 spans minues half a gap */
+}
+

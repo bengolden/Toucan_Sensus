@@ -1,0 +1,36 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+
+html {
+	height: 100%;
+	background: #85E085;
+}
+
+body {
+
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  /* gradient -- thanks, colorzilla.com */
+  background: #A6CF7C; /* Old browsers */
+  background: -moz-linear-gradient(top, #A6CF7C 0%, #85E085 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A6CF7C), color-stop(100%,#85E085)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #A6CF7C 0%,#85E085 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #A6CF7C 0%,#85E085 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #A6CF7C 0%,#85E085 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #A6CF7C 0%,#85E085 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6cf7c', endColorstr='#85E085',GradientType=0 ); /* IE6-9 */
+}
